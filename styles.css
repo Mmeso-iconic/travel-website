@@ -16,7 +16,7 @@ body{
     font-family:"Urbanist", sans-serif;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 0;  /* never exceed it */
+    padding: 0 100px;  /* never exceed it */
     overflow-x: hidden;
 }
 
@@ -27,8 +27,7 @@ body{
 header{
     height: 100vh;
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px 30px;
+    margin: 50px auto;
     justify-content: space-between;  
 }
 
@@ -125,8 +124,8 @@ h1 span{
 /*Destination Section*/
 
 .Destination-sec{
-    margin: 0 auto;
-    padding: 20px 30px;
+   
+  
 }
 .Destination-header{
     margin-top: 60px;
@@ -233,9 +232,7 @@ h1 span{
 
 .WhyUs-Sec{
     margin: 0 auto;
-    padding: 20px 30px;
-    margin-top: 200px;
-
+    margin-top: 100px;
 }
 
 .WhyUsheader-para{
@@ -256,15 +253,17 @@ h1 span{
     gap: 28px;
 }
 
+
 .WhyUs{
-    gap: 40px;
-    width: 317px;
-    height: 300px;
-    padding-top: 28px;
-    padding-right: 20px;
-    padding-bottom: 32px;
-    padding-left: 20px;    
-    box-shadow: 10px 26px 150px 0px #4343641A;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 30px;
 }
 
 .WhyUs h3{
@@ -321,97 +320,221 @@ h1 span{
 }
 
 .WhyUs-Description{
-    margin-top: 10px;
-    position: relative;
-}
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-between;
+        height: 100%;
+    }
+    
 
 .WhyUs-Details{
-    position: absolute;
-    bottom: -2130px;
-    width: 500px;
+    margin-top: auto; /* Pushes it to the bottom */
+    align-self: flex-end; /* Pushes to the right */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: #008080;
+    cursor: pointer;
+}
+
+#With-moredetails{
+    color: white;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------------------------Services-Section-------------------------*/
+.service-section {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3rem 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.service-wordcard h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #222;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0%;
+
+}
+  
+.service-wordcard h2 span {
+    color: #25A59E;
+}
+  
+.service-wordcard p {
+    font-size: 1rem;
+    color: #595959;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+  
+.service-wordcard p span {
+    color: #25A59E;
+    font-weight: 600;
+}
+  
+.service-picture {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+  
+ .main-image {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+  
+.shape-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 350px;  /* reasonable size on mobile */
+    max-width: 95%;
+    height: auto;
+    z-index: 1;
+}
+
+
+/*------------------------DOCUMENTARY SECTION-------------------------*/
+
+.Documentary-Sec {
+    padding: 100px 0;
+}
+
+.Documentary-Sec h2{
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;     
+}  
+
+.documentary-div {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.documentary-div h2 {
+    font-size: 2rem;
+    margin-bottom: 48px;
+}
+
+
+.documentary-img {
+    position: relative;
+    width: 100%;
+    max-width: 1440px; /* or whatever you want */
+    margin: auto;
+}
+
+.documentary-img img:first-child {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.documentary-img img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px; /* or whatever size suits */
+    height: auto;
+    z-index: 2;
+}
+
+
+/*--------------------------------FOOTER-----------------------------*/
+
+footer{
+    padding: 0px;
+}
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer-div h2{
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+}
+
+.footer-div button{
+    width: 147px;
+    height: 54px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    gap: 10px;
+    background-color: #25A59E;
+    border: none;
+    margin-top: 70px;
+}
+
+.footer-div button a{
+    color: #FFFFFF;
+    font-family: "urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-decoration: none;
+}
+
+.footer-contactnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contactnav ul li{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.footernav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footernav ul{
+    display: flex;
+    margin-top: 100px;
+}
+
+.footernav ul li{
+    list-style-type: none;
+}
+
+.footernav a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-img{
+    display: flex;
+}
 
 
 
@@ -716,6 +839,28 @@ h1 span{
         height: 300px;  /* Adjust height for large screens */
     }
     
+
+    .service-section {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 4rem 5%;
+    }
+    
+    .service-wordcard {
+        flex: 1;
+    }
+    
+    .service-picture {
+        flex: 1;
+        max-width: 500px;
+    }
+    
+    .shape-image {
+        width: 500px;
+        right: 5%;
+    }
+    
 }
 
 
@@ -762,7 +907,7 @@ h1 span{
 
 
     .Destination-header{
-        margin-top: 180px;
+        margin-top: 80px;
         padding-top: 40px;
         padding-right: 20px;
         padding-bottom: 80px;
@@ -810,6 +955,7 @@ h1 span{
         padding-bottom: 32px;
         padding-left: 20px;    
         box-shadow: 10px 26px 150px 0px #4343641A;
+        margin: 0px;
     }
     
     .WhyUs h3{
@@ -821,4 +967,32 @@ h1 span{
         margin-bottom: 15px;
         margin-top: 20px;
     }
+
+
+    .service-wordcard h2 {
+        font-size: 2.8rem;
+    }
+    
+    .service-wordcard p {
+        font-size: 1.1rem;
+    }
+    
+    .shape-image {
+        width: 560px;
+        right: 3%;
+    }
+    
+    .main-image {
+        max-width: 500px;
+    }
+
+
+    .footer-div h2{
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 84px;
+        letter-spacing: 0%;
+    }
+    
 }
