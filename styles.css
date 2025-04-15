@@ -1,16 +1,8 @@
-:root{
-    --brand : #25A59E;
-    --white : #FFFFFF99;
-    --orange : #ED8528;
-    --black  : #737373;
-}
 
 *,
 *::after,
 *::before{
     box-sizing: border-box;
-    
-
 }
 
 
@@ -23,8 +15,6 @@
 }
 
 body, html {
-    font-family:"Urbanist", sans-serif;
-    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -35,7 +25,7 @@ body, html {
 
 
 
-/*Header*/
+/*-------------------HEADER SECTION--------------------------------*/
 
 header{
     height: auto;
@@ -78,11 +68,11 @@ nav .logo{
     max-height: 100%;
     height: 290px;
     overflow: hidden;
-    z-index: 1; /* ensures content stays above the background */
+    z-index: 1; 
 }
 
-/* this will rotate only the background image */
-.header-content::before {
+
+.header-content::before {  /* this is helping to rotate only the background image */
     content: "";
     position: absolute;
     top: -50%;
@@ -92,7 +82,7 @@ nav .logo{
     background-image: url('Images/Blurry.png');
     background-size: auto;
     background-repeat: repeat;
-    transform: rotate(10deg); /* change degree as needed */
+    transform: rotate(10deg); 
     z-index: -1;
     background-blend-mode: lighten;
     
@@ -117,7 +107,7 @@ h1 span{
 .header-img {
     position: relative;
     max-width: 375px;
-    height: 300px; /* give it a fixed height for stacking to work */
+    height: 300px; /* giving it a fixed height for stacking to work */
     margin: auto;
     padding: 0;
     padding-bottom: 80px;
@@ -147,7 +137,7 @@ h1 span{
     z-index: 2;
     bottom: 0; /* align base */
     width: 333px;
-    height: 157px; /* expand upward */
+    height: 157px; 
     position: absolute;
     top: 32px;
    
@@ -158,14 +148,14 @@ h1 span{
     z-index: 3;
     bottom: 0;
     width: 350px;
-    height: 200px; /* make it taller */
+    height: 200px; 
     position: absolute;
     top: -10px;
 }
 
 
 
-/*Destination Section*/
+/*------------------------------DESTINATION SECTION------------------------------*/
 
 .Destination-sec{
 max-width: 375px;
@@ -271,7 +261,7 @@ overflow: hidden;
 }
 
 
-/*Why Choose Us Section*/
+/*--------------------------Why Choose Us Section----------------------------*/
 
 .WhyUs-Sec{
     margin: 0 auto;
@@ -332,7 +322,7 @@ overflow: hidden;
     margin-top: 20px;
 }
 
-/*------------------WHY US SECTION CARDSS-------------*/
+/*-WHY US SECTION CARDSS-------*/
 
 
 .Card1{
@@ -386,8 +376,8 @@ overflow: hidden;
     
 
 .WhyUs-Details{
-    margin-top: auto; /* Pushes it to the bottom */
-    align-self: flex-end; /* Pushes to the right */
+    margin-top: auto; 
+    align-self: flex-end; 
     display: flex;
     align-items: center;
     gap: 10px;
@@ -401,7 +391,7 @@ overflow: hidden;
 }
 
 
-/*----------------------------Services-Section-------------------------*/
+/*----------------------------SERVICES-SECTION-------------------------*/
 .service-section {
     display: flex;
     flex-direction: column;
@@ -458,14 +448,14 @@ overflow: hidden;
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 350px;  /* reasonable size on mobile */
+    width: 350px;  
     max-width: 95%;
     height: auto;
     z-index: 1;
 }
 
 
-/*------------------------DOCUMENTARY SECTION-------------------------*/
+/*-----------------------------DOCUMENTARY SECTION-------------------------------------*/
 
 .Documentary-Sec {
     padding: 30px 0;
@@ -495,7 +485,7 @@ overflow: hidden;
 .documentary-img {
     position: relative;
     width: 100%;
-    max-width: 375px; /* or whatever you want */
+    max-width: 375px; 
     
 }
 
@@ -510,18 +500,18 @@ overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px; /* or whatever size suits */
+    width: 60px; 
     height: auto;
     z-index: 2;
 }
 
 
-/*--------------------------------FOOTER-----------------------------*/
+/*------------------------------------------FOOTER-----------------------------------*/
 
 footer{
     max-width: 375px;
     padding: 0px;
-   
+
 }
 .footer-div{
     display: flex;
@@ -562,7 +552,15 @@ footer{
     text-decoration: none;
 }
 
-.footer-contactnav{
+
+
+.footercontact p{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
 
 }
 
