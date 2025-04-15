@@ -1,5 +1,5 @@
 
-#TRAVEL WEBSITE (Mobile First Version)
+##TRAVEL WEBSITE (Mobile First Version)
 
 This is a website that was deveoped to aid the decision on traveling and options of travel activities. This iwas developed on a mobile first basis.
 
@@ -21,4 +21,4 @@ This website aided with building my practical knowledge of CSS and HTML. The pur
 
 ## Live Demo
 
-Check out the live demo of the project: [Live Demo Link]([https://example.com](https://travel-website-6b98.onrender.com/))
+Check out the live demo of the project: [[https://example.com](https://travel-website-6b98.onrender.com/]
