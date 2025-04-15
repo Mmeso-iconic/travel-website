@@ -604,4 +604,8 @@ footer{
 .footernav a {
     color: black;
     text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+
+
 }
