@@ -1,24 +1,69 @@
+# Travel – Mobile First Website
 
-##TRAVEL WEBSITE (Mobile First Version)
+This is a simple travel-themed landing page designed using HTML and CSS. It's built with a mobile-first approach, focusing on responsiveness and clean layout for smaller screens.
 
-This is a website that was deveoped to aid the decision on traveling and options of travel activities. This iwas developed on a mobile first basis.
+---
 
-##Table of Contents
+## Table of Contents
 
-- [Project Name](#project-name)
+- [Introduction](#introduction)  
+- [Live Demo](#live-demo)  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+- [Author](#author)
 
-  - [Table of Contents](#table-of-contents)
-
-  - [Introduction](#introduction)
-
-  - [Live Demo](#live-demo)
-
+---
 
 ## Introduction
 
-This website aided with building my practical knowledge of CSS and HTML. The purpose was a guide to designing a website just from HTML and CSS
+This project is a mobile-first travel landing page. It was built to practice writing clean, structured HTML and CSS, with mobile design as the priority. It showcases a simple layout with a header, destination cards, service info, and a footer.
 
+---
 
 ## Live Demo
 
-Check out the live demo of the project: [[https://example.com](https://travel-website-6b98.onrender.com/]
+🔗 [View the site here] https://travel-website-6b98.onrender.com/
+
+---
+
+## Features
+
+- Mobile-first responsive layout  
+- Simple header with a logo and menu icon  
+- Destination highlights with images and locations  
+- Service section with text and images  
+- Footer with contact and navigation links
+
+---
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- Google Fonts (Gilda Display & Urbanist)
+
+---
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone or download the project
+2. Open `index.html` in your browser
+
+There are no extra tools or frameworks needed.
+
+---
+
+## Usage
+
+You can customize this layout to fit your own travel theme or build on it for learning. It’s great for practicing structure, layout, and mobile design principles.
+
+---
+
+## Author
+Mmesoma Ugwuanyi
+
+---
