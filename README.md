@@ -8,6 +8,7 @@ This is a simple travel-themed landing page designed using HTML and CSS. It's bu
 
 - [Introduction](#introduction)  
 - [Live Demo](#live-demo)  
+- [Loom Links] (#loom-links)
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Getting Started](#getting-started)  
@@ -25,6 +26,16 @@ This project is a mobile-first travel landing page. It was built to practice wri
 ## Live Demo
 
 🔗 [View the site here] https://travel-website-6b98.onrender.com/
+
+---
+## Loom Links 
+
+I’ve added two Loom videos explaining the project (the video was split into two due to a recording issue):
+
+Part 1: [Loom Link - https://www.loom.com/share/b9011b207ab8451e82b93c93da905a1c?sid=dcbee181-8972-4010-a97d-d4248f5a981f
+
+Part 2: [Loom Link - https://www.loom.com/share/5ab8e623a51f4c2d9bcda4db952b3e64?sid=d761a9a9-b1bc-475b-80ca-8b07e042c36e
+
 
 ---
 
