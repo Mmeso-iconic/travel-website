@@ -8,7 +8,7 @@ This is a simple travel-themed landing page designed using HTML and CSS. It's bu
 
 - [Introduction](#introduction)  
 - [Live Demo](#live-demo)  
-- [Loom Links] (#loom-links)
+- [Loom Links](#loom-links)
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Getting Started](#getting-started)  
